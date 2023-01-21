@@ -1,0 +1,7 @@
+div.header{
+    width: var(--width);
+    position: fixed;
+}
+div.header>img{
+    width: inherit;
+}
