@@ -5,8 +5,6 @@ div.serch{
     position: fixed;
     top: 7%;
     padding: 20px;
-    /* background-color: red; */
-
 }
 div.serch>img{
     width: 8%;
@@ -66,17 +64,15 @@ div.serch>div.vorod{
     margin-right: 12px;
 }
 div.serch>div.vorod>p{
-    font-weight: bold;
     font-size: 13px;
     display: inline-block;
     position: absolute;
-    top: 13px;
+    top: 11px;
     left: 10%;
 }
 div.serch>span.khat{
     width: 0px;
     height: 25px;
-    background-color: chocolate;
     color: red;
     border: 1px solid lightgray ;
     float: left;
@@ -87,7 +83,7 @@ div.serch>span.khat{
 div.serch>div.sabad{
     width: auto;
     height: 75px;
-    top: 28px;
+    top: 24px;
     position: absolute;
     left: 1%;
 }
