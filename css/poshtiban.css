@@ -1,4 +1,3 @@
-
 div.poshtiban{
     position: fixed;
     border-radius: 50%;
@@ -6,14 +5,56 @@ div.poshtiban{
     bottom: 15px;
     left: 55px;
     padding: 14px;
+    cursor: pointer;
+
 }
 div.poshtiban>svg{
     display: block;
     width: 25px;
     height: 25px;
 }
-div.poshtiban{
-    cursor: pointer;
+div.poshtiban>input{
+    display: none;
 }
+div.biaboro{
+    width: 400px;
+    height: 592px;
+    border-radius: var(--border-radius);
+    position: fixed;
+    background-color: #ffffff;
+    left: 55px;
+    bottom: 100px;
+    overflow: auto;
+    border: 1px solid #EF4056;
+}
+label[for=boro]{
+    cursor: pointer;
+    position: absolute;
+    left: 5px;
+    top: 0px;
+background-color: transparent;
+font-size: 23px;
+}
+#bia:focus ~ div.biaboro{
+    display: block;
+}
+#boro:focus ~ div.biaboro{
+display: none;
+}
+div.biaboro::before{
+    content: attr(poshtiban);
+    width: 100%;
+    height: 60px;
+    background-color: #EF4056;
+    display: block;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: right;
+    line-height: 60px;
+}
+div.biaboro::before{
+    
+}
+
 
 
