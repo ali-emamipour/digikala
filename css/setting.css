@@ -20,3 +20,8 @@ body{
     background-color: #FFFFFF ;
     min-height: 2000px;
 }
+::-webkit-scrollbar-button , ::-webkit-scrollbar-corner, ::-webkit-scrollbar-track{
+    width: 50px;
+    background-color: red;
+    color: red;
+}
