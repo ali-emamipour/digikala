@@ -3,43 +3,56 @@ div.poshtiban{
     border-radius: 50%;
     background-color: #EF4056;
     bottom: 15px;
-    left: 55px;
+    left: 50px;
     padding: 14px;
     cursor: pointer;
 
 }
 div.poshtiban>svg{
     display: block;
-    width: 25px;
-    height: 25px;
+    width: 22px;
+    height: 22px;
 }
-div.poshtiban>input{
+div.poshtiban ~ input{
     display: none;
 }
+div.poshtiban ~label{
+    position: fixed;
+    border-radius: 50%;
+    background-color: #EF4056;
+    bottom: 15px;
+    left: 55px;
+    padding: 14px;
+    opacity: 0;
+}
+
 div.biaboro{
-    width: 400px;
-    height: 592px;
+    width: 360px;
+    height: 542px;
     border-radius: var(--border-radius);
     position: fixed;
     background-color: #ffffff;
-    left: 55px;
-    bottom: 100px;
-    overflow: auto;
+    left: 50px;
+    bottom: 80px;
+    overflow-x: hidden;
     border: 1px solid #EF4056;
+    z-index: 30;
+    transition: 500ms;
+    display: none;
 }
 label[for=boro]{
     cursor: pointer;
     position: absolute;
-    left: 5px;
-    top: 0px;
-background-color: transparent;
-font-size: 23px;
+    left: 20px;
+    top: 10px;
+    font-size: 20px;
 }
-#bia:focus ~ div.biaboro{
+
+#boro:checked ~ div.biaboro{
+    display: none;
+}
+#bia:checked ~ div.biaboro {
     display: block;
-}
-#boro:focus ~ div.biaboro{
-display: none;
 }
 div.biaboro::before{
     content: attr(poshtiban);
@@ -47,14 +60,52 @@ div.biaboro::before{
     height: 60px;
     background-color: #EF4056;
     display: block;
-    font-size: 20px;
+    font-size: 17px;
     color: #ffffff;
     text-align: right;
     line-height: 60px;
+    padding-right: 20px;
 }
-div.biaboro::before{
-    
+div.biaboro>p:nth-of-type(1){
+    font-size: 18px;
+    margin: 20px 10px;
 }
+div.biaboro>p:nth-of-type(2){
+    line-height: 30px;
+    margin: 20px 10px;
+    font-size: 13px;
+}
+div.biaboro>p:nth-of-type(3) ,div.biaboro>p:nth-of-type(4) , div.biaboro>p:nth-of-type(5) {
+    border: 1px solid rgba(0, 0, 0, 0.176);
+    padding: 20px 10px;
+    line-height: 40px;
+    margin: 10px 10px;
+    padding-left: 70px;
+    border-radius: var(--border-radius-kam);
+    font-weight: bold;
+    font-size: 13px;
+}
+div.biaboro>p:nth-of-type(6){
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+div.biaboro > a{
+    width: 200px;
+    height: auto;
+    padding: 15px;
+    text-decoration: none;
+    background-color: #19BFD3;
+    display: inline-block;
+    transform: translateX(-75px);
+    border-radius: 50px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-size: 13px;
 
-
+}
+div.biaboro > a >span{
+    transform: translate( -10px , 3px);
+}
 

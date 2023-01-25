@@ -7,9 +7,6 @@ color: #EE384E;
 position: absolute;
 right: 9px;
 }
-div.menu>nav>ul>li>a{
-font-size: 30px ;
-}
 div.menu * {
     margin: unset;
     padding: unset;
@@ -19,13 +16,15 @@ div.menu{
     width: 100%;
     height: 40px;
    position: fixed;
-   top: 20px ;
+   top: -1px ;
+   z-index: 99;
 
 }
 div.menu>nav{
     width: 100%;
-height: 40px;
-   margin-top: 120px;
+height: 45px;
+   margin-top: 125px;
+   background-color: #FFFFFF;
 }
 div.menu>nav>ul{
     width: 100%;
@@ -33,7 +32,6 @@ div.menu>nav>ul{
     list-style: none;
     display: block;
     width: inherit;
-    padding: 0px;
 }
 div.menu>nav>ul>li{
     width:auto ;
@@ -45,7 +43,7 @@ div.menu>nav>ul>li{
 div.menu>nav>ul>li::after{
     content: "";
     width: 0 ;
-    height: 2px;
+    height: 1px;
     background-color: red;
     z-index: 10;
     display: block;
@@ -67,14 +65,12 @@ div.menu>nav>ul>li:nth-of-type(2){
 div.menu>nav>ul>li:nth-of-type(1){
     width: 140px;
  position: absolute;
- padding-left: 16px;
+ padding-left: 0px;
 }
 
 div.menu>nav>ul>li:nth-of-type(1)>a>svg{
-    height: 20px; 
-    line-height: 20px;
     display: inline-block;
-    margin-right: -285px;
+    margin-right: -280px;
     margin-top: 8px;
 }
 div.menu>nav>ul>li:nth-of-type(1)>a>p{
@@ -82,16 +78,16 @@ div.menu>nav>ul>li:nth-of-type(1)>a>p{
    top: 20px;
    left: 10px;
    display: inline-block;
-   font-family: iransans;
+   font-size: 13px;
   }
           
 div.menu>nav>ul>li>a{
     display: inline-block;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 11px;
 text-decoration: none;
 color: #5A5C7A;
-padding: 0 17px;
+padding: 0 12px;
 
 }
 div.menu>nav>ul>li>a>span{
@@ -108,13 +104,13 @@ color: black;
 font-size: 15px;
 }
 div.menu>nav>ul>li>div.submenu{
-    width: calc(100vw - 50px);
-    height: 550px;
+    width: calc(100vw - 80px);
+    height: 500px;
     background-color: white;
     position: absolute;
     display: none;
     top: 40px;
-    right: clac(50% - calc(100vw - 50px) / 2 );
+    right: 13px;
     z-index: 10;
 }
 div.menu>nav>ul>li:hover>div.submenu{
@@ -124,16 +120,19 @@ div.menu>nav>ul>li:hover>div.submenu{
 
 }
 div.menu>nav>ul>li>div.submenu>ul{
+    height: inherit;
     width: 20%;
 list-style: none;
 overflow: auto;
 direction: ltr;
+overflow-x: hidden;
 }
 div.menu>nav>ul>li>div.submenu>ul>li{
     width: 100%;
     height: 50px;
     text-align: center;
     background-color: #FFFFFF;
+    
 
 }
 div.menu>nav>ul>li>div.submenu>ul>li>a{
@@ -144,20 +143,20 @@ div.menu>nav>ul>li>div.submenu>ul>li>a{
 
 }
 div.menu>nav>ul>li>div.submenu>ul>li>a>svg{
-    width: 24px;
-    height: 24px;
+    width: 23px;
+    height: 23px;
     fill: rgb(56, 50, 50);
     display: block;
-    padding-left: 280px;
+    padding-left: 250px;
     padding-top: 10px;
 }
 div.menu>nav>ul>li>div.submenu>ul>li>a>p{
     width: 45%;
 display: block;
 color: black;
-font-size: 12px;
+font-size: 11px;
 margin-top: -30px;
-padding-left: 130px;
+padding-left: 115px;
 text-align: right;
 }
 div.menu>nav>ul>li>div.submenu>ul>li:hover{
@@ -339,7 +338,7 @@ width: 25px;
 height: 100;
 display: inline-block;
 line-height: 35px;
-font-size: 18px;
+font-size: 13px;
 margin-left: 25px;
 font-weight: bolder;
 text-align: right;
@@ -359,7 +358,7 @@ div.menu>nav>ul>li>div.submenu>ul>li>div>div:nth-of-type(2)>ul>li:nth-of-type(1)
     line-height: 35px;
     display: block;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 13px;
     color: black;
     font-family: Iran;
 }
@@ -377,7 +376,7 @@ div.menu>nav>ul>li>div.submenu>ul>li>div>div:nth-of-type(2)>ul>li:nth-of-type(1)
     height: 100;
     display: inline-block;
     line-height: 35px;
-    font-size: 18px;
+    font-size: 13px;
     margin-left: 25px;
     font-weight: bolder;
 text-align: right;    }
@@ -419,7 +418,7 @@ margin-right: 20px;
         height: 80%;
 line-height: 24px;
     display: inline-block;
-    font-size: 15px;
+    font-size: 13px;
         margin-left: 85px;
         font-weight: bolder;
         text-align: right;
@@ -439,7 +438,7 @@ line-height: 24px;
         height: 80%;
 line-height: 24px;
     display: inline-block;
-    font-size: 15px;
+    font-size: 13px;
         margin-left: 145px;
         font-weight: bolder;
         text-align: right;
@@ -488,7 +487,7 @@ div.menu>nav>ul>li>div.submenu>ul>li>div>div:nth-of-type(3)>ul>li:nth-of-type(6)
     height: 100;
     display: inline-block;
     line-height: 20px;
-    font-size: 15px;
+    font-size: 13px;
     margin-left: 95px;
     font-weight: bolder;
 text-align: right;
@@ -501,7 +500,7 @@ div.menu>nav>ul>li>div.submenu>ul>li>div>div:nth-of-type(3)>ul>li:nth-of-type(14
     line-height: 20px;
     text-align: right;
     font-family:Arial, Helvetica, sans-serif ;
-    font-size: 10px;
+    font-size: 13px;
     display:inline-block ;
     margin-right: 0px;
 }
@@ -511,7 +510,7 @@ div.menu>nav>ul>li>div.submenu>ul>li>div>div:nth-of-type(3)>ul>li:nth-of-type(14
     line-height: 20px;
     text-align: right;
     font-family:Iran ;
-    font-size: 15px;
+    font-size: 13px;
     display:inline-block ;
     margin-right: 10px;
     margin-left: 5px;
@@ -528,7 +527,7 @@ height: 100%;
 line-height: 20px;
 display: block;
 text-decoration: none;
-font-size: 15px;
+font-size: 13px;
 color: black;
 font-family: Iran;
 }
@@ -667,7 +666,7 @@ div.menu>nav>ul>li>div.submenu>ul>li>div.electronic>div:nth-of-type(1)>ul>li>a{
     line-height: 20px;
     display: block;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 13px;
     color: black;
     font-family: Iran;
 }
@@ -744,7 +743,7 @@ div.menu>nav>ul>li>div.submenu>ul>li>div.electronic>div:nth-of-type(1)>ul>li:nth
 div.menu>nav>ul>li>div.submenu>ul>li>div.electronic>div:nth-of-type(1)>ul>li>a>span.text{
     width:100%;
     height: 100%;
-    font-size: 15px;
+    font-size: 13px;
     line-height: 20px;
     text-align: right;
     margin-left: 0px;
@@ -770,7 +769,7 @@ div.menu>nav>ul>li>div.submenu>ul>li>div.electronic>div>ul>li:nth-of-type(2)>a{
     line-height:30px;
     display: block;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 13px;
     color: black;
     font-family: Iran;
 }
@@ -779,8 +778,7 @@ width: 15px;
 height: 80%;
 line-height: 24px;
     display: inline-block;
-    font-size: 15px;
-font-size: 18px;
+    font-size: 13px;
 margin-left: 0px;
 font-weight: bolder;
 text-align: right;
@@ -792,7 +790,7 @@ div.menu>nav>ul>li>div.submenu>ul>li>div.electronic>div>ul>li:nth-of-type(2)>a>s
    text-align: right;
    margin-right: -90px;
    font-weight: bolder;
-   font-size: 20px;
+   font-size: 13px;
 }
 div.menu>nav>ul>li>div.submenu>ul>li>div.electronic>div>ul>li:nth-of-type(6){
     width: 100%;
@@ -813,7 +811,7 @@ width: 25px;
 height: 80%;
 line-height: 24px;
     display: inline-block;
-    font-size: 15px;
+    font-size: 13px;
 margin-left: 10px;
 font-weight: bolder;
 text-align: right;
@@ -824,7 +822,7 @@ div.menu>nav>ul>li>div.submenu>ul>li>div.electronic>div>ul>li:nth-of-type(6)>a>s
    line-height:30px;
    text-align: right;
    margin-right: -105px;
-   font-size: 20px;
+   font-size: 13px;
    font-weight: bolder;
 }
 div.menu>nav>ul>li>div.submenu>ul>li>div.electronic>div>ul>li:nth-of-type(13){
@@ -846,7 +844,7 @@ width: 25px;
 height: 80%;
 line-height: 24px;
     display: inline-block;
-    font-size: 15px;
+    font-size: 13px;
 margin-left: 10px;
 font-weight: bolder;
 text-align: right;
@@ -857,7 +855,7 @@ div.menu>nav>ul>li>div.submenu>ul>li>div.electronic>div>ul>li:nth-of-type(13)>a>
     width: calc(100% - 170px);
     height: 100%;
    line-height:30px;
-   font-size: 20px;
+   font-size: 13px;
    text-align: right;
    margin-right: -85px;
    font-weight: bolder;
@@ -876,7 +874,7 @@ width: 25px;
 height: 80%;
 line-height: 24px;
     display: inline-block;
-    font-size: 15px;
+    font-size: 13px;
 margin-left: 10px;
 font-weight: bolder;
 text-align: right;
@@ -892,7 +890,7 @@ div.menu>nav>ul>li>div.submenu>ul>li>div.electronic>div>ul>li:nth-of-type(14)>a>
    line-height:30px;
    text-align: right;
    margin-right: -32px;
-   font-size: 20px;
+   font-size: 13px;
    font-weight: bolder;
 }
 div.menu>nav>ul>li>div.submenu>ul>li>div.electronic>div>ul>li:nth-of-type(14)>a>span{
@@ -900,7 +898,7 @@ div.menu>nav>ul>li>div.submenu>ul>li>div.electronic>div>ul>li:nth-of-type(14)>a>
     height: 100%;
     display: inline-block;
     line-height:30px;
-    font-size: 18px;
+    font-size: 13px;
     margin-left: 10px;
     font-weight: bolder;
     text-align: right;
@@ -921,7 +919,7 @@ div.menu>nav>ul>li>div.submenu>ul>li>div.electronic>div>ul>li:nth-of-type(14)>a>
         width: 100%;
         height: 100%;
         text-align: right;
-        font-size: 15px;
+        font-size: 13px;
         margin-left: 0px;
         
     }
@@ -967,7 +965,7 @@ div.menu>nav>ul>li>div.submenu>ul>li>div.electronic>div>ul>li:nth-of-type(14)>a>
     height: 80%;
 line-height: 24px;
     display: inline-block;
-    font-size: 15px;
+    font-size: 13px;
     margin-left: 0px;
     font-weight: bolder;
     text-align: right;
@@ -977,7 +975,7 @@ line-height: 24px;
        display: inline-block;
        height: 100%;
        line-height:30px;
-       font-size: 20px;
+       font-size: 13px;
        text-align: right;
        margin-right: -30px;
        font-weight: bolder;
@@ -1001,7 +999,7 @@ line-height: 24px;
     height: 80%;
     line-height: 24px;
         display: inline-block;
-        font-size: 15px;
+        font-size: 13px;
     margin-left: 0px;
     font-weight: bolder;
     text-align: right;
@@ -1009,7 +1007,7 @@ line-height: 24px;
     div.menu>nav>ul>li>div.submenu>ul>li>div.electronic>div:nth-of-type(2)>ul>li:nth-of-type(2)>a>span.text{
        width: calc(100% - 110px);
        display: inline-block;
-       font-size: 20px;
+       font-size: 13px;
        height: 100%;
        line-height:30px;
        text-align: right;
@@ -1035,7 +1033,7 @@ line-height: 24px;
     height: 80%;
 line-height: 24px;
     display: inline-block;
-    font-size: 15px;
+    font-size: 13px;
     margin-left: 0px;
     font-weight: bolder;
     text-align: right;
@@ -1048,7 +1046,7 @@ line-height: 24px;
        text-align: right;
        margin-right: -60px;
        font-weight: bolder;
-       font-size: 20px;
+       font-size: 13px;
 
     }
     div.menu>nav>ul>li>div.submenu>ul>li>div.electronic>div:nth-of-type(2)>ul>li:nth-of-type(4){
@@ -1070,7 +1068,7 @@ line-height: 24px;
     height: 80%;
 line-height: 24px;
     display: inline-block;
-    font-size: 15px;
+    font-size: 13px;
     margin-left: 0px;
     font-weight: bolder;
     text-align: right;
@@ -1080,7 +1078,7 @@ line-height: 24px;
        display: inline-block;
        height: 100%;
        line-height:30px;
-       font-size: 20px;
+       font-size: 13px;
        text-align: right;
        margin-right: -130px;
        font-weight: bolder;
@@ -1104,7 +1102,7 @@ width: 25px;
 height: 80%;
 line-height: 24px;
     display: inline-block;
-    font-size: 15px;
+    font-size: 13px;
 margin-left: 0px;
 font-weight: bolder;
 text-align: right;
@@ -1112,7 +1110,7 @@ text-align: right;
 div.menu>nav>ul>li>div.submenu>ul>li>div.electronic>div:nth-of-type(2)>ul>li:nth-of-type(8)>a>span.text{
    width: calc(100% - 155px);
    display: inline-block;
-   font-size: 20px;
+   font-size: 13px;
    height: 100%;
    line-height:30px;
    text-align: right;
@@ -1158,7 +1156,7 @@ width: 25px;
 height: 80%;
 line-height: 24px;
     display: inline-block;
-    font-size: 15px;
+    font-size: 13px;
 margin-left: 0px;
 font-weight: bolder;
 text-align: right;
@@ -1166,7 +1164,7 @@ text-align: right;
 div.menu>nav>ul>li>div.submenu>ul>li>div.electronic>div:nth-of-type(2)>ul>li:nth-of-type(13)>a>span.text{
    width: calc(100% - 100px);
    display: inline-block;
-   font-size: 20px;
+   font-size: 13px;
    height: 100%;
    line-height:30px;
    text-align: right;
@@ -1189,7 +1187,7 @@ div.menu>nav>ul>li>div.submenu>ul>li>div.electronic>div:nth-of-type(3)>ul>li>a>s
     width: 100%;
     height: 100%;
     text-align: right;
-    font-size: 15px;
+    font-size: 13px;
     margin-left: 0px;
     
 }
@@ -1213,7 +1211,7 @@ width: 25px;
 height: 80%;
 line-height: 24px;
 display: inline-block;
-font-size: 15px;
+font-size: 13px;
 margin-left: 0px;
 font-weight: bolder;
 text-align: right;
@@ -1223,7 +1221,7 @@ div.menu>nav>ul>li>div.submenu>ul>li>div.electronic>div:nth-of-type(3)>ul>li:nth
    display: inline-block;
    height: 100%;
    line-height:30px;
-   font-size: 20px;
+   font-size: 13px;
    text-align: right;
    margin-right: -150px;
    font-weight: bolder;
@@ -1291,7 +1289,7 @@ width: 15px;
 height: 80%;
 line-height: 24px;
     display: inline-block;
-    font-size: 15px;
+    font-size: 13px;
 margin-left: 0px;
 font-weight: bolder;
 text-align: right;
@@ -1299,7 +1297,7 @@ text-align: right;
 div.menu>nav>ul>li>div.submenu>ul>li>div.electronic>div:nth-of-type(3)>ul>li:nth-of-type(2)>a>span.text{
    width: calc(100% - 40px);
    display: inline-block;
-   font-size: 20px;
+   font-size: 13px;
    height: 100%;
    line-height:30px;
    text-align: right;
@@ -1325,7 +1323,7 @@ width: 15px;
 height: 80%;
 line-height: 24px;
 display: inline-block;
-font-size: 15px;
+font-size: 13px;
 margin-left: 0px;
 font-weight: bolder;
 text-align: right;
@@ -1338,7 +1336,7 @@ div.menu>nav>ul>li>div.submenu>ul>li>div.electronic>div:nth-of-type(3)>ul>li:nth
    text-align: right;
    margin-right: -60px;
    font-weight: bolder;
-   font-size: 20px;
+   font-size: 13px;
 
 }
 div.menu>nav>ul>li>div.submenu>ul>li>div.electronic>div:nth-of-type(3)>ul>li:nth-of-type(10){
@@ -1785,17 +1783,18 @@ div.menu>nav>label{
     line-height: 40px;
     direction: ltr;
     position: absolute;
-    font-size: 12px;
+    font-size: 11px;
     left: 20px;
     top:120px;
     color: rgba(0, 0, 0, 0.799);
 }
 div.menu>nav>label>span{
-    padding-left: 15px;
+    padding-left: 10px;
     display: inline-block;
-    font-size: 18px;
+    font-size: 16px;
     color: black;
     vertical-align: sub;
+    padding-top: 23px;
 }
 div.menu>nav>div.location{
     width: 100vw;
@@ -1815,13 +1814,13 @@ div.menu>nav>div.location>div.select{
     border-radius:10px;
     position: absolute;
     left:calc(50% - 30vw / 2);
-    top:calc(50% - 550PX / 2);
+    top:calc(50% - 600PX / 2);
     opacity: 0;
  
 }
 div.menu>nav>div.location>div.select>div.city{
     width: 100%;
-    height: 550px;
+    height: 583px;
     overflow-y: scroll;
 margin-left: 0px
 }

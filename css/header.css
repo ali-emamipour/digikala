@@ -1,6 +1,8 @@
 div.header{
     width: var(--width);
     position: fixed;
+    top: 0px;
+    z-index: 99;
 }
 div.header>img{
     width: inherit;

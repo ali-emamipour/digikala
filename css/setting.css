@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 :root{
     --width: 100%;
@@ -20,7 +21,7 @@ body{
     background-color: #FFFFFF ;
     min-height: 2000px;
 }
-::-webkit-scrollbar-button , ::-webkit-scrollbar-corner, ::-webkit-scrollbar-track{
+ ::-webkit-scrollbar-button {
     width: 50px;
     background-color: red;
     color: red;

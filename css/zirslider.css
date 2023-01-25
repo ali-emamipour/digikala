@@ -1,0 +1,37 @@
+div.zirslider {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  padding: 35px 0;
+  text-align: center;
+}
+
+div.zirslider > div.hashtaee {
+  display: inline-block;
+  width: 52px;
+  height: 52px;
+  margin: 0 50px;
+}
+
+div.zirslider > div.hashtaee > a {
+  width: inherit;
+  height: inherit;
+}
+div.zirslider > div.hashtaee > a > img {
+  width: inherit;
+  height: inherit;
+}
+div.zirslider > div.hashtaee > a > svg {
+  width: inherit;
+  height: inherit;
+  padding: 15px;
+  background-color: #f1f2f4;
+  border-radius: 50%;
+  caret-color: #9e9fb1;
+}
+div.zirslider > div.hashtaee > p{
+    font-size: 10px;
+    width: 120px;
+    transform: translateX(30px);
+}
+
