@@ -8,7 +8,7 @@ div.serch{
    z-index: 99;
    background-color: #ffffff;
 }
-div.serch>img{
+div.serch>a>img{
     width: 7.5%;
     height: 33px;
     position: absolute;
@@ -52,7 +52,7 @@ div.serch>div.jost>div.tanzim>input::placeholder{
     padding-right: 5px;
     font-size: 12px;
 }
-div.serch>div.vorod{
+div.serch>a>div.vorod{
     width: 9%;
     height: 40px;
     position: absolute;
@@ -61,13 +61,14 @@ div.serch>div.vorod{
     border-radius: 7px;
     display: block;
     border: 1px solid lightgray;
+    color: black;
 
-}div.serch>div.vorod>span{
+}div.serch>a>div.vorod>span{
     font-size: 17px;
     line-height: 40px;
     margin-right: 15px;
 }
-div.serch>div.vorod>p{
+div.serch>a>div.vorod>p{
     font-size: 11px;
     display: inline-block;
     position: absolute;

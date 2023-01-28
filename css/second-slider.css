@@ -1,0 +1,38 @@
+div.second-slider{
+    width: 85%;
+    height: 290px;
+    background-color: #EF394E;
+    margin: 0 auto;
+    border-radius: var(--border-radius);
+}
+div.second-slider> div.rast{
+    width: 13%;
+    border-radius: var(--border-radius);
+    height: inherit;
+}
+div.second-slider> div.rast>svg{
+    width: 92px;
+    height: 77px;
+    display: block;
+    margin: 10px auto;
+    transform: translateY(30px);
+}
+div.second-slider>div.rast>img{
+    width: 130px;
+    height: 120px;
+    display: block;
+    margin: 30px auto;
+}
+div.second-slider> div.rast>p{
+    font-size: 13px;
+    width: 100px;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    transform: translateY(-20px);
+}
+div.second-slider> div.rast>p>span{
+    vertical-align: -2px ;
+}
+
+
