@@ -4,6 +4,11 @@ div.second-slider{
     background-color: #EF394E;
     margin: 0 auto;
     border-radius: var(--border-radius);
+    position: relative;
+    overflow: hidden;
+    border-left: 3px solid #EF394E;
+    border-right: 3px solid #EF394E;
+
 }
 div.second-slider> div.rast{
     width: 13%;
@@ -34,5 +39,54 @@ div.second-slider> div.rast>p{
 div.second-slider> div.rast>p>span{
     vertical-align: -2px ;
 }
+
+div.second-slider>div.chap{
+    width: 1120px;
+    height: 250px;
+    display: inline-block;
+    position: absolute;
+    top: calc(50% - 250px / 2) ;
+    right: 13%;
+    border-bottom-right-radius: var(--border-radius-kam);
+    border-top-right-radius: var(--border-radius-kam);
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  div.swiper-container>div.swiper-wrapper> div.swiper-slide {
+    width: 182px;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: flex-start;
+    padding-top: 15px;
+
+  }
+
+  div.swiper-container>div.swiper-wrapper> div.swiper-slide img {
+    display: block;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  div.swiper-container>div.swiper-wrapper> div.swiper-slide::after {
+    content: "";
+    
+  }
 
 

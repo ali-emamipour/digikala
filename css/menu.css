@@ -39,6 +39,7 @@ div.menu>nav>ul>li{
     display: inline-block;
    line-height: 40px;
    position: relative;
+   padding: 0 10px;
 }
 div.menu>nav>ul>li::after{
     content: "";
@@ -70,8 +71,10 @@ div.menu>nav>ul>li:nth-of-type(1){
 
 div.menu>nav>ul>li:nth-of-type(1)>a>svg{
     display: inline-block;
-    margin-right: -280px;
+    margin-right: 0px;
     margin-top: 8px;
+    width: 20px;
+    height: 20px !important;
 }
 div.menu>nav>ul>li:nth-of-type(1)>a>p{
     position: absolute;
@@ -85,9 +88,8 @@ div.menu>nav>ul>li>a{
     display: inline-block;
     text-decoration: none;
     font-size: 11px;
-text-decoration: none;
 color: #5A5C7A;
-padding: 0 12px;
+
 
 }
 div.menu>nav>ul>li>a>span{

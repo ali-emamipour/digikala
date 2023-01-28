@@ -872,10 +872,34 @@
     <path d="M108.649 83.8194C108.649 83.3793 109.013 83.0225 109.462 83.0225H111.901C112.35 83.0225 112.714 83.3793 112.714 83.8194V102.945C112.714 103.385 112.35 103.741 111.901 103.741H109.462C109.013 103.741 108.649 103.385 108.649 102.945V83.8194Z" fill="white"/>
     </svg>
     <img src="./images/box.png" alt="">  <p>مشاهده همه <span class="fa-solid fa-arrow-left"></span></p> </div>
-  
-</div>
-<!-- end make slider 2 -->
+  <!-- Swiper -->
+ <div class="chap">
+  <div #swiperRef="" class="swiper-container yourSwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="./images/slider-1.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="./images/slider-2.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="./images/slider-3.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="./images/slider-4.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="./images/slider-5.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="./images/slider-6.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="./images/slider-7.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="./images/slider-8.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="./images/slider-9.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="./images/slider-10.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="./images/slider-11.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="./images/slider-12.jpg" alt=""></div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
 
+
+
+</div>
+</div>
+
+<!-- end make slider 2 -->
+<!-- script slider -->
 <script src="./swiper/swiper-bundle.min.js"></script>
 
     <script>
@@ -895,6 +919,23 @@
           prevEl: ".swiper-button-prev",
         },
       });
-    </script> 
+    </script>
+    <script>
+      var swiper = new Swiper('.yourSwiper', {
+        slidesPerView: 6,
+        centeredSlides: false,
+        spaceBetween: 2,
+        pagination: {
+          type: 'fraction',
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });
+  
+    </script>
+<!--end script slider -->
+
   </body>
 </html>
