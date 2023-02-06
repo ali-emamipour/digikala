@@ -1,0 +1,24 @@
+div.daste-bandi{
+width: 100%;
+height: auto;
+margin: 0 auto;
+padding: 35px 50px;
+text-align: center;
+}
+
+div.daste-bandi > div {
+    display: inline-block;
+    width: 170px;
+    margin: 17px 18px;
+  }
+div.daste-bandi > div > a > img {
+    width: 100%;
+    height: 100%;
+}
+div.daste-bandi > div  > p {
+    width: auto;
+    font-size: 11px;
+
+  }
+
+  

@@ -1,3 +1,4 @@
+
 @import  "menu.css";
 @import "setting.css";
 @import "header.css";
@@ -6,3 +7,19 @@
 @import "slider.css";
 @import "zirslider.css";
 @import "second-slider.css";
+@import "zirslider2.css";
+@import "zir2.css";
+@import "dastebandi.css";
+@import "pishnahad.css";
+
+::-webkit-scrollbar{
+    width: 8px;
+    background-color: rgb(224, 224, 224);
+}
+::-webkit-scrollbar-button{
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 20px;
+    background-color: rgb(181, 181, 181);
+
+}

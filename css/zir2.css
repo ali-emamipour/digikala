@@ -1,0 +1,21 @@
+div.zir-2{
+    width: 100%;
+
+}
+div.zir-2>div{
+    width: 100%;
+    text-align: center;
+padding: 15px 0px;  
+
+}
+div.zir-2>div>a{
+    width: 25%;
+    padding: 0 2.5px;
+}
+div.zir-2>div>a>img{
+    width: 314px;
+    height: 235.5px;
+    display:inline-block ;
+    border-radius:  12px;
+    object-fit: cover;
+}

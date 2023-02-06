@@ -19,10 +19,5 @@
 }
 body{
     background-color: #FFFFFF ;
-    min-height: 2000px;
-}
- ::-webkit-scrollbar-button {
-    width: 50px;
-    background-color: red;
-    color: red;
+    min-height: 4000px;
 }
