@@ -11,12 +11,12 @@
 @import "zir2.css";
 @import "dastebandi.css";
 @import "pishnahad.css";
+@import "fav.css";
+@import "digiplus.css";
 
 ::-webkit-scrollbar{
     width: 8px;
     background-color: rgb(224, 224, 224);
-}
-::-webkit-scrollbar-button{
 }
 ::-webkit-scrollbar-thumb{
     border-radius: 20px;
