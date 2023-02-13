@@ -1,0 +1,60 @@
+div.digiclub{
+    width: 86%;
+    height: 87px;
+    background: linear-gradient(to left , #007295 ,#35A6C8 );
+    margin: 10px auto;
+    border-radius: 13px;
+}
+div.digiclub>div:nth-of-type(1){
+    display: inline-block;
+    padding: 28px;
+}
+div.digiclub>div:nth-of-type(1)>img{
+    display: inline-block;
+    width: 120px;
+}
+div.digiclub>div:nth-of-type(2),div.digiclub>div:nth-of-type(4),div.digiclub>div:nth-of-type(3){
+    width: 270px;
+    height: 60px;
+    background-color: white;
+    margin: 13px 2px;
+    float: left;
+    text-align: left;
+}
+div.digiclub>div:nth-of-type(2){
+    margin-left: 15px;
+
+    border-end-end-radius: 7px;
+    border-start-end-radius: 7px;
+}
+div.digiclub>div:nth-of-type(2)>img{
+    border-end-end-radius: 7px;
+    border-start-end-radius: 7px;
+}
+div.digiclub>div:nth-of-type(4){
+
+    border-end-start-radius: 7px;
+    border-start-start-radius: 7px;
+}
+
+div.digiclub>div:nth-of-type(2)>img,div.digiclub>div:nth-of-type(4)>img,div.digiclub>div:nth-of-type(3)>img{
+    width: 168px;
+    height:60px ;
+    display: inline-block;
+    object-fit: cover;
+}
+div.digiclub>div>p{
+    font-size: 10px;
+    float: right;
+    transform: translate( -10px , 23px);
+    font-weight: bold;
+}
+div.digiclub>div>svg{
+    fill: #3FCFE0;
+    width: 25px;
+    height: 25px;
+    transform: scale(.8);
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+}

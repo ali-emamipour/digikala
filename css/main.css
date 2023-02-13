@@ -13,6 +13,8 @@
 @import "pishnahad.css";
 @import "fav.css";
 @import "digiplus.css";
+@import "digiclub.css";
+@import "porforosh.css";
 
 ::-webkit-scrollbar{
     width: 8px;

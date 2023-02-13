@@ -1,0 +1,102 @@
+div.porforosh{
+    width: 86%;
+    height: 410px;
+    border: 1px solid rgb(201, 201, 201);
+    margin: 30px auto;
+    border-radius: var(--border-radius);
+    /* overflow: hidden;     */
+    text-align: center;
+    position: relative;
+}
+div.porforosh>div:nth-of-type(1){
+    width: 100%;
+    height: auto;
+}
+
+div.porforosh>div:nth-of-type(1)>p{
+    display: inline-block;
+    font-size: 19px;
+    margin-top: 20px;
+}
+div.porforosh>div:nth-of-type(1)>svg{
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    fill: #F9A825;
+    transform: translate(7px , 7px);
+}
+div.porforosh>div:nth-of-type(1)>a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #19BFD3;
+    padding: 15px 15px;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+}
+
+div.porforosh > div.radif{
+    display: inline-block;
+    width: 25%;
+    height: 100%;
+    margin: -3px;
+    margin-top: 10px;
+}
+div.porforosh > div.radif >div.cell{
+    width: 100%;
+    height: 28%;
+    text-align: right;
+}
+div.porforosh > div.radif >div.cell>div.aks-o-adad{
+    display: inline-block;
+    width: 35%;
+    height: 100%;
+}
+div.porforosh > div.radif >div.cell>div.aks-o-adad>img{
+    width:86px;
+    height:86px;
+display: inline-block;
+    margin-top: 18px;
+}
+div.porforosh > div.radif >div.cell>div.aks-o-adad>p{
+    display: inline-block;
+    transform: translate(-5px , -35px);
+    color: #19BFD3 ;
+    font-size: 22px;
+    font-weight: bold;
+}
+div.porforosh > div.radif >div.cell>div.matn{
+    display: inline-block;
+    width: 60%;
+    height: 100%;
+    vertical-align: top;
+    position: relative;
+}
+div.porforosh > div.radif >div.cell>div.matn::after{
+    content: "";
+    width: 93%;
+    display: inline-block;
+    height: 1px;
+    background-color: rgb(226, 226, 226);
+    position: absolute;
+    bottom: -3px;
+    left: 15px;
+}
+
+div.porforosh > div.radif >div.cell>div.matn>p{
+    width: 95%;
+    height: auto;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    font-size: 12px;
+    transform: translate(0px , 35px);
+    line-height: 25px;
+    
+}
+div.porforosh > div:nth-of-type(2) >div.cell:nth-of-type(3)>div.matn>p , div.porforosh > div:nth-of-type(3) >div.cell:nth-of-type(2)>div.matn>p , div.porforosh > div:nth-of-type(4) >div.cell:nth-of-type(2)>div.matn>p , div.porforosh > div:nth-of-type(5) >div.cell:nth-of-type(1)>div.matn>p{
+    transform: translate(-5px , 50px);
+
+}
+
+
