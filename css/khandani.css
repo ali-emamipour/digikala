@@ -1,0 +1,38 @@
+div.khandani{
+    width: 88%;
+    height: 270px;
+    margin:20px auto;
+    text-align: center;
+    box-sizing: none;
+}
+div.khandani> div{
+    width: 23.8%;
+    height: 100%;
+    border: 1px solid rgb(205, 205, 205);
+    display: inline-block;
+    border-radius:var(--border-radius-kam);
+    margin: 0px  3px;
+    vertical-align: top;
+}
+div.khandani> div > a{
+    width: var(--width);
+    height: inherit;
+    text-decoration: none;
+
+
+}
+div.khandani> div > a > img {
+    width: 100%;
+    border-start-start-radius:var(--border-radius-kam) ;
+    border-start-end-radius:var(--border-radius-kam) ;
+     
+
+}
+div.khandani> div > a > p {
+    font-size: 11px;
+    text-align: justify;
+    padding: 2px 15px;
+    color: black;
+    line-height: 25px;
+}
+
