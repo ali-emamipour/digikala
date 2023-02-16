@@ -6,7 +6,7 @@ div.poshtiban{
     left: 50px;
     padding: 14px;
     cursor: pointer;
-    z-index: 150;
+    z-index: 2;
 
 }
 div.poshtiban>svg{
@@ -48,8 +48,12 @@ label[for=boro]{
     left: 20px;
     top: 10px;
     font-size: 20px;
+    
 }
+label[for=bia]{
+    z-index: 3;
 
+}
 #boro:checked ~ div.biaboro{
     display: none;
 }
