@@ -3,8 +3,8 @@ div.serch{
     height:70px;
     background-color: transparent;
     position: fixed;
-    top: 54px;
-    padding: 20px;
+    top: 58px;
+    padding: 25px;
    z-index: 99;
    background-color: #ffffff;
 }

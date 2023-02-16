@@ -16,6 +16,11 @@
 @import "digiclub.css";
 @import "porforosh.css";
 @import "khandani.css";
+@import "aksfooter.css";
+@import "pfooter.css";
+@import "download.css";
+@import "namad.css";
+@import "footer.css";
 
 ::-webkit-scrollbar{
     width: 8px;

@@ -1,0 +1,47 @@
+div.download{
+    width: 98%;
+    padding: 16px;
+    background-color: #3C4B6D;
+    margin: 0 auto;
+    border-radius: var(--border-radius-kam);
+
+}
+div.download>p{
+    font-size: 19px;
+    display: inline-block;
+    color: white;
+    margin-right: 10px;
+    margin-left: 475px;
+}
+div.download>div{
+    display: inline-block;
+    width: auto;
+    margin: 0 5px;
+}
+div.download>div>img{
+    vertical-align: middle;
+    width: 142px;
+    
+}
+div.download>div:nth-of-type(1){
+    width: 44px;
+    height: 44px;
+    display: inline-block;
+    vertical-align: middle;
+}
+div.download>div:nth-of-type(1)>img{
+    width: inherit;
+    height: inherit;
+}
+div.download>div>svg{
+    width: 44px;
+  height: 42px;
+  padding: 6px;
+  background-color: #f1f2f4;
+    vertical-align: middle;
+    border-radius: 4px;
+    font-size: 19px;
+    fill: #424750;
+    transform: translateX(-5px);
+}
+

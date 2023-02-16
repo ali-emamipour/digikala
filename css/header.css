@@ -3,7 +3,10 @@ div.header{
     position: fixed;
     top: 0px;
     z-index: 99;
+    height: 55px;
 }
 div.header>img{
     width: inherit;
+    height: inherit;
+    scale: 1.1;
 }
